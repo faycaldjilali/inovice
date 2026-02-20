@@ -1,0 +1,5 @@
+streamlit
+google-generativeai
+sqlalchemy
+python-dotenv
+pillow
