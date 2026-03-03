@@ -13,7 +13,7 @@ import json
 # ---------- Load environment and configure Gemini ----------
 load_dotenv()
 # Use provided key directly (for demo) – better to use env var in production
-GEMINI_API_KEY = "AIzaSyAqUUqzc9udziv9LKIzceuo_v8c8pri1oY"  # Replace with your actual key or use os.getenv
+GEMINI_API_KEY = "apikey"  # Replace with your actual key or use os.getenv
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ---------- Database setup (same as before) ----------
